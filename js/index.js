@@ -54,4 +54,24 @@ window.addEventListener("DOMContentLoaded", (event) => {
       draggable: true,
     },
   });
+
+  let el = document.querySelector(".cases-case__img");
+  let pz = new PinchZoom(el);
+
+  var win = window,
+    lockOrientation =
+      win.screen.lockOrientation ||
+      win.screen.mozLockOrientation ||
+      win.screen.msLockOrientation ||
+      function () {
+        return null;
+      };
+
+  if (lockOrientation) {
+    /**
+     * Parameters
+     * [ portrait-primary, portrait-secondary, landscape-primary, landscape-secondary, portrait, landscape, default ]
+     */
+    lockOrientation("portrait");
+  }
 });
