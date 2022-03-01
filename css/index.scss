@@ -272,6 +272,15 @@ picture img {
 	&--color {
 		color: var(--c-primary);
 	}
+	&--regular {
+		font-weight: 500;
+	}
+	&--bold {
+		font-weight: 600;
+	}
+	&--underline {
+		border-bottom: 1px solid #333;
+	}
 }
 .section-list__item:before {
 	content: "";
@@ -675,6 +684,10 @@ picture img {
 }
 .lead__caption-text {
 	display: block;
+	font-weight: 400;
+	&--highlight {
+		font-weight: 600;
+	}
 }
 .lead-decor__bottom {
 	background-image: url("../img/lead/lead-hero.png");
@@ -684,6 +697,9 @@ picture img {
 	height: 305px;
 	width: calc(100% + 20px);
 	margin-left: -10px;
+}
+.lead__book {
+	margin-bottom: 15px;
 }
 
 // @footer
@@ -769,4 +785,10 @@ picture img {
 	.lead-decor__bottom {
 		height: 235px;
 	}
+}
+
+@import "blocks/timer";
+
+.no-bg {
+	background: none;
 }

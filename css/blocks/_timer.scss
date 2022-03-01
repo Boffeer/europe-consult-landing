@@ -1,0 +1,40 @@
+.timer {
+	position: relative;
+	z-index: 3;
+	padding: 20px 10px;
+	background-color: #fff;
+	border: 1px solid #f3f3f3;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin-bottom: 35px;
+}
+.timer__title {
+	text-align: center;
+	font-size: 11px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #333333;
+}
+.timer-counters {
+	display: flex;
+	justify-content: space-around;
+}
+.timer-counters__numbers {
+	color: var(--c-primary);
+	font-size: 56px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-family: var(--ff-title);
+	margin-right: -14px;
+}
+.timer-counters__name {
+	font-size: 10px;
+	line-height: 130%;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #727272;
+}
