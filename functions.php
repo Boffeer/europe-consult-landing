@@ -15,24 +15,42 @@
 		require "blocks/{$_GET_name}/{$lead_block}.php";
 	}
 
-	function render_blocks($blocks) {
+ /**
+  * @date 2022-03-02
+  * @param array $blocks
+  * @param {any} $file
+  * @param {any} $language=null
+  * @returns {any}
+  */
+	function get_page_layout($blocks, $file, $language = null)	 {
 		$root = $_SERVER['DOCUMENT_ROOT'];
-		if (stripos(__FILE__, '\\')) {
-			$fixed_path = str_replace('\\', '/', __FILE__);
-		}
 
 		// Defines page language
+		if (stripos($file, '\\')) {
+			$fixed_path = str_replace('\\', '/', $file);
+		} else {
+			$fixed_path = $file;
+		}
 		if (stripos($fixed_path, '/pages/ru/')) {
 			$page_language = 'ru';
 		} else if (stripos($fixed_path, '/pages/fr/')) {
 			$page_language = 'fr';
-		} else {
-			$page_language = 'ru';
+		} else if ($language != null) {
+			$page_language = $language;
 		}
 
-		require_once "{$root}/header.php";
-		foreach ($blocks as $block) {
-			require "{$root}/blocks/{$page_language}/{$block}.php";
+
+		require "{$root}/header.php";
+		foreach ($blocks as $key => $block) {
+			$block_path = "{$root}/blocks/{$page_language}/{$block}.php";
+			$block_path = str_replace('\/\/', '/', $block_path);
+			require $block_path;
+
+			$blocks_count = count($blocks);
+			$block_key = $key + 1;
+			// Если блок последний, то
+			if ($blocks_count == $block_key) {
+				// require "{$root}/blocks/{$page_language}/{$block}.php";
+			}
 		}
-		require_once "{$root}/footer.php";
 	}
