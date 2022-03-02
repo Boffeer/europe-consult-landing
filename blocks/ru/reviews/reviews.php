@@ -10,7 +10,7 @@
 				>
 					<div class="reviews-card__profile">
 						<img
-							src="./img/reviews/review.png"
+							src="<?php echo $root_url; ?>img/reviews/review.png"
 							alt=""
 							class="reviews-card__img"
 						/>

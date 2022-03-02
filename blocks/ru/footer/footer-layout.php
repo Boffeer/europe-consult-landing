@@ -3,7 +3,7 @@
 					<div class="container footer__container">
 						<a href="#" class="footer-branding branding"
 							><img
-								src="/img/common/on-logo.png"
+								src="<?php echo $host_url; ?>/img/common/on-logo.png"
 								alt="Узнайте как привлекать клиентов"
 								class="footer-branding__logo branding__logo"
 						/></a>

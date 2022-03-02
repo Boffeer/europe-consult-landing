@@ -4,7 +4,7 @@ use function functions\get_page_layout;
 
 
 $head_info = array(
-	'title' => 'Узнайте как привлекать от 3-10 клиентов в день через связки:',
+	'title' => "Узнайте как получать от 3-10 клиентов в день из Instagram и Google по минимальной цене",
 	'description' => 'Запишись на консультацию к русскоговорящему маркетологу с информацией о всех особенностях работы в Европе.',
 	'keywords' => '',
 	'og_site_name' => '',
@@ -13,7 +13,7 @@ $head_info = array(
 
 $blocks = array(
 	'header/header',
-	'hero/combos',
+	'hero/google-ig',
 	'consult/consult',
 	'result/result',
 	'cases/cases',

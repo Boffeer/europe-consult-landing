@@ -11,7 +11,7 @@
 				<article class="swiper-slide cases-slider-slide cases-case">
 					<picutre class="pincher cases-case__pic"
 						><img
-							src="./img/pinch.jpg"
+							src="<?php echo $host_url; ?>/img/pinch.jpg"
 							alt=""
 							class="cases-case__img"
 					/></picutre>

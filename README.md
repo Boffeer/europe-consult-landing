@@ -9,3 +9,5 @@
 Landing, path, Blocks, YMs, GA, GTMS
 
 Block, id, path
+
+Захотел на ларке написать все это дело или блоками вп

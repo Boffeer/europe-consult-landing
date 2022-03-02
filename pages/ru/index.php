@@ -1,20 +1,19 @@
 <?php
 
-$root = $_SERVER['DOCUMENT_ROOT'];
-$blocks = array(
-	'hero/combos',
-	'result/result',
-	'hero/combos',
-	'hero/combos',
-);
+	$blocks = array(
+		'hero/combos',
+		'hero/google-ig',
+		'consult/consult',
+		'result/result',
+		'cases/cases',
+		'person/person',
+		'lead/tripwire',
+		'lead/free',
+		'lead/combos-free',
+		'lead/combos-free-timer',
+	);
 
-function autoload($class) {
-	$class = str_replace('\\', '/', $class);
-	$file = __DIR__ . "/{$class}.php";
-	if (file_exists($file)) {
-		require_once $file;
-	}
-}
+$root = $_SERVER['DOCUMENT_ROOT'];
 if (stripos(__FILE__, '\\')) {
 	$fixed_path = str_replace('\\', '/', __FILE__);
 }

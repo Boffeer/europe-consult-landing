@@ -15,7 +15,7 @@
 		<div class="hero__offer">
 			<picture class="hero__offer-pic"
 				><img
-					src="./img/hero/magnet.png"
+					src="<?php echo $host_url; ?>/img/hero/magnet.png"
 					alt=""
 					class="hero__offer-img"
 			/></picture>

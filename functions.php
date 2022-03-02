@@ -22,9 +22,9 @@
   * @param {any} $language=null
   * @returns {any}
   */
-	function get_page_layout($blocks, $file, $language = null)	 {
+	function get_page_layout($blocks, $head_info, $file, $language = null)	 {
 		$root = $_SERVER['DOCUMENT_ROOT'];
-
+		$head_info;
 		// Defines page language
 		if (stripos($file, '\\')) {
 			$fixed_path = str_replace('\\', '/', $file);

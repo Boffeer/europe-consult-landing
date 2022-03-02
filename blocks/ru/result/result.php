@@ -8,7 +8,7 @@
 			<article class="result-card">
 				<picture class="result-card__pic"
 					><img
-						src="./img/result/record.png"
+						src="<?php echo $root_url; ?>/img/result/record.png"
 						alt=""
 						class="result-card__img"
 				/></picture>
@@ -24,7 +24,7 @@
 			<article class="result-card">
 				<picture class="result-card__pic result-card__pic--client"
 					><img
-						src="./img/result/clients.png"
+						src="<?php echo $root_url; ?>/img/result/clients.png"
 						alt=""
 						class="result-card__img"
 				/></picture>
@@ -37,7 +37,7 @@
 			<article class="result-card">
 				<picture class="result-card__pic"
 					><img
-						src="./img/result/cart.png"
+						src="<?php echo $root_url; ?>/img/result/cart.png"
 						alt=""
 						class="result-card__img"
 				/></picture>

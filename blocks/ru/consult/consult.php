@@ -11,7 +11,7 @@
 			<article class="consult-card">
 				<picture class="consult-card__pic"
 					><img
-						src="./img/consult/funnel.png"
+						src="<?php echo $host_url; ?>/img/consult/funnel.png"
 						alt=""
 						class="consult-card__img"
 				/></picture>
@@ -33,7 +33,7 @@
 			<article class="consult-card">
 				<picture class="consult-card__pic"
 					><img
-						src="./img/consult/strategy.png"
+						src="<?php echo $host_url; ?>/img/consult/strategy.png"
 						alt=""
 						class="consult-card__img"
 				/></picture>
@@ -50,7 +50,7 @@
 			<article class="consult-card consult-card--no-pt">
 				<picture class="consult-card__pic"
 					><img
-						src="./img/consult/button.png"
+						src="<?php echo $host_url; ?>/img/consult/button.png"
 						alt=""
 						class="consult-card__img"
 				/></picture>
