@@ -1,8 +1,9 @@
+<?php $host_url = "//{$_SERVER['HTTP_HOST']}"; ?>
 				<footer class="footer">
 					<div class="container footer__container">
 						<a href="#" class="footer-branding branding"
 							><img
-								src="./img/common/on-logo.png"
+								src="/img/common/on-logo.png"
 								alt="Узнайте как привлекать клиентов"
 								class="footer-branding__logo branding__logo"
 						/></a>
@@ -36,9 +37,9 @@
 			</div>
 		</div>
 
-		<script src="./assets/poppa/poppa.js"></script>
-		<script src="./js/swiper-bundle.min.js"></script>
-		<script src="./js/pinch-zoom.js"></script>
-		<script src="./js/index.js"></script>
+		<script src="<?php echo $host_url; ?>/assets/poppa/poppa.js"></script>
+		<script src="<?php echo $host_url; ?>/js/swiper-bundle.min.js"></script>
+		<script src="<?php echo $host_url; ?>/js/pinch-zoom.js"></script>
+		<script src="<?php echo $host_url; ?>/js/index.js"></script>
 	</body>
 </html>
