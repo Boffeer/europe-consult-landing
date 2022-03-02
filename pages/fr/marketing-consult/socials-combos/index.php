@@ -3,7 +3,7 @@
 use function functions\get_page_layout;
 
 $blocks = array(
-	'hero/combos',
+	'hero/google-ig',
 	'consult/consult',
 	'result/result',
 	'cases/cases',

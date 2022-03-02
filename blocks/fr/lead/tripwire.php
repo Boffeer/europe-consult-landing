@@ -7,7 +7,7 @@
 		</h2>
 		<p class="lead__desc section__text section__text--regular">
 			1 heure de ma consultation coûte 100 €, mais ce n'est qu'aujourd'hui que je suis prêt à vous inscrire à un
-			<span class="section__text--bold section__text--underline"> prix spécial - 9,99 €</span>
+			<span class="section__text--bold section__text--underline"> prix&nbsp;spécial - 9,99 €</span>
 		</p>
 		<p class="lead__desc section__text">
 			Si vous voyez ce site, alors vos concurrents le voient aussi :)

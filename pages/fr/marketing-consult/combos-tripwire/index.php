@@ -8,7 +8,7 @@ $blocks = array(
 	'result/result',
 	'cases/cases',
 	'person/person',
-	'lead/lead-combos',
+	'lead/tripwire',
 	'footer/footer',
 );
 require_once $_SERVER['DOCUMENT_ROOT'] . '/functions.php';

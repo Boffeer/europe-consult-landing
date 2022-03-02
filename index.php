@@ -7,7 +7,6 @@ use function functions\get_page_layout;
 
 <?php require_once 'functions.php'; ?>
 
-<main class="main">
 <?php
 	$blocks = array(
 		'hero/combos',
@@ -20,6 +19,5 @@ use function functions\get_page_layout;
 	);
 	get_page_layout($blocks, __FILE__, 'ru');
 ?>
-</main>
 
 <?php //require_once 'footer.php'; ?>

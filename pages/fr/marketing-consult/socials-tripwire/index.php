@@ -3,12 +3,12 @@
 use function functions\get_page_layout;
 
 $blocks = array(
-	'hero/combos',
+	'hero/tripwire',
 	'consult/consult',
 	'result/result',
 	'cases/cases',
 	'person/person',
-	'lead/lead-combos',
+	'lead/tripwire',
 	'footer/footer',
 );
 require_once $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
