@@ -23,7 +23,7 @@ function getSafeValue ($var_name) {
 }
 
 function getActualLink() {
-    return 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
+    return 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['PHP_SELF'];
 }
 
 function getCurrentDate() {

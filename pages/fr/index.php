@@ -1,17 +1,18 @@
 <?php
 
-	$blocks = array(
-		'hero/combos',
-		'hero/google-ig',
-		'consult/consult',
-		'result/result',
-		'cases/cases',
-		'person/person',
-		'lead/tripwire',
-		'lead/free',
-		'lead/combos-free',
-		'lead/combos-free-timer',
-	);
+$blocks = array(
+	'hero/combos',
+	'hero/google-ig',
+	'consult/consult',
+	'result/result',
+	'cases/cases',
+	'person/person',
+	'lead/tripwire',
+	'lead/free',
+	'lead/combos-free',
+	'lead/combos-free-timer',
+);
+
 
 $root = $_SERVER['DOCUMENT_ROOT'];
 if (stripos(__FILE__, '\\')) {

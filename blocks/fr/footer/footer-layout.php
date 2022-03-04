@@ -1,4 +1,8 @@
-<?php $host_url = "//{$_SERVER['HTTP_HOST']}"; ?>
+<?php //$host_url = "//{$_SERVER['SERVER_NAME']}"; ?>
+<?php //$host_url = "//{$_SERVER['HTTP_HOST']}"; ?>
+<?php $host_url = "//{$_SERVER['SERVER_NAME']}"; ?>
+
+
 				<footer class="footer">
 					<div class="container footer__container">
 						<a href="#" class="footer-branding branding"
@@ -7,17 +11,19 @@
 								alt="Узнайте как привлекать клиентов"
 								class="footer-branding__logo branding__logo"
 						/></a>
-						<a href="" class="footer__phone">+4 (758) 999-99-99</a>
+						<a href="tel:+<?php echo preg_replace('/\D/i', '', $global_links['phone']); ?>" class="footer__phone">
+							<?php echo $global_links['phone']; ?>
+						</a>
 						<div class="footer__legal">
-							<a href="" class="footer__legal-link"
+							<a href="<?php echo $global_links['privacy']; ?>" class="footer__legal-link"
 								>Политика конфиденциальности</a
 							>
-							<a href="" class="footer__legal-link">Договор оферты</a>
+							<a href="<?php echo $global_links['offer']; ?>" class="footer__legal-link">Договор оферты</a>
 						</div>
 						<div class="footer__entry">
-							<p class="footer__entry-item">ИП Ивано Иван Иванович</p>
-							<p class="footer__entry-item">ОГРНИП 12123123123123123123</p>
-							<p class="footer__entry-item">ИНН 123123123123213</p>
+							<p class="footer__entry-item">SIRET 910 223 593 00013</p>
+							<p class="footer__entry-item">QURY MARKETING</p>
+							<p class="footer__entry-item">Adresse: 4 avenue Jean de la Fontaine 06100 Nice</p>
 						</div>
 						<p class="footer__rights">Все права защищены</p>
 					</div>
@@ -32,7 +38,7 @@
 			</div>
 			<div class="pop-pinch">
 				<picutre class="cases-case__pic"
-					><img src="./img/pinch.jpg" alt="" class="cases-case__img"
+					><img src="<?php echo $host_url; ?>/img/pinch.jpg" alt="" class="cases-case__img"
 				/></picutre>
 			</div>
 		</div>

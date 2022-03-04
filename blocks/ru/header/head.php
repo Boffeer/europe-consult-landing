@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru" prefix="og: http://ogp.me/ns#">
 	<?php
-		$host = $_SERVER['HTTP_HOST'];
-		$host_url = "//{$_SERVER['HTTP_HOST']}";
+		$host = $_SERVER['SERVER_NAME'];
+		$host_url = "//{$_SERVER['SERVER_NAME']}";
 	?>
 	<head>
 		<meta charset="UTF-8" />

@@ -1,4 +1,4 @@
-<?php $host_url = "//{$_SERVER['HTTP_HOST']}"; ?>
+<?php $host_url = "//{$_SERVER['SERVER_NAME']}"; ?>
 				<footer class="footer">
 					<div class="container footer__container">
 						<a href="#" class="footer-branding branding"

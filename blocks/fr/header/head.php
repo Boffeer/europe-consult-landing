@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru" prefix="og: http://ogp.me/ns#">
 	<?php
-		$host = $_SERVER['HTTP_HOST'];
-		$host_url = "//{$_SERVER['HTTP_HOST']}";
+		$host = $_SERVER['SERVER_NAME'];
+		$host_url = "//{$_SERVER['SERVER_NAME']}";
+
+		$global_links = array(
+			"calendly" => "#calendly",
+			"privacy" => "#privacy",
+			"offer" => "#offer",
+			"phone" => "+ 33 (7) 53 11 35 45",
+		);
 	?>
 	<head>
 		<meta charset="UTF-8" />
