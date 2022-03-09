@@ -35,4 +35,15 @@
 					><img src="<?php echo $host_url; ?>/img/pinch.jpg" alt="" class="cases-case__img"
 				/></picutre>
 			</div>
+			<form class="pop-callback">
+				<h3 class="section__title pop-callback__title">Заполните форму</h3>
+				<p class="section__subtitle pop-callback__subtitle">И получите консультацию</p>
+				<label class="input__wrap input__wrap--name">
+					<input class="input input--name" name="user_name" type="text" placeholder="Имя" maxlength="50">
+				</label>
+				<label class="input__wrap input__wrap--tel">
+					<input class="input input--phone" name="user-tel" type="tel" placeholder="Телефон" maxlength="25" minlength="10" required inputmode="numeric">
+				</label>
+				<button class="button button--primary pop-callback__submit">Записаться</button>
+			</form>
 		</div>

@@ -234,7 +234,7 @@ picture img {
   padding-top: 11px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 13px;
+  padding-bottom: 10px;
   font-size: 14px;
   line-height: 17px;
   color: #b1b1b1;
@@ -278,6 +278,36 @@ picture img {
   border-radius: 10px;
   -webkit-filter: blur(54px);
           filter: blur(54px);
+}
+
+.input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 23px;
+  padding-bottom: 20px;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.39);
+}
+
+.input:focus {
+  border-color: var(--c-primary);
+}
+
+.poppa__closer {
+  font-weight: 300;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .branding__logo {
@@ -529,8 +559,8 @@ picture img {
 }
 
 .consult-card__desc--bottom {
-  color: #ababab;
-  font-weight: 300;
+  color: var(--c-primary);
+  font-weight: 600;
 }
 
 .consult-card__desc--bottom-bubble {
@@ -1072,5 +1102,25 @@ picture img {
 
 .no-bg {
   background: none;
+}
+
+.pop-callback {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 30px 12px;
+}
+
+.pop-callback__title {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 31px;
+}
+
+.pop-callback__subtitle {
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 131.4%;
+  font-size: 15px;
 }
 /*# sourceMappingURL=index.css.map */

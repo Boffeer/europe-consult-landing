@@ -62,4 +62,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
     pop: ".pop-pinch",
     clickTrigger: ".pincher",
   });
+  poppa({
+    pop: ".pop-callback",
+    clickTrigger: ".header__contact",
+  });
 });

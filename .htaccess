@@ -5,5 +5,7 @@ ErrorDocument 404 https://qurydigital.com/404.php
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^(www\.qurydigital\.com)(:80)? [NC]
 RewriteRule ^(.*) https://qurydigital.com/$1 [R=301,L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(|.*/)index\\.html$ /$1 [R=301,L]
 DirectoryIndex index.php
 order deny,allow
