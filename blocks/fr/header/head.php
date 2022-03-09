@@ -32,6 +32,16 @@
 		<meta property="og:image" content="<?php $head_info['og_image']?>" />
 		<title><?php echo $head_info['title']; ?></title>
 
+		<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $host_url; ?>/img/manifest/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $host_url; ?>/img/manifest/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $host_url; ?>/img/manifest/favicon-16x16.png">
+		<link rel="manifest" href="<?php echo $host_url; ?>/img/manifest/site.webmanifest">
+		<link rel="mask-icon" href="<?php echo $host_url; ?>/img/manifest/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="<?php echo $host_url; ?>/img/manifest/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ea5aba">
+		<meta name="msapplication-config" content="<?php echo $host_url; ?>/img/manifest/browserconfig.xml">
+		<meta name="theme-color" content="#ea5aba">
+
 		<link rel="stylesheet" href="//<?php echo $host; ?>/css/normalize.css" />
 		<link rel="stylesheet" href="//<?php echo $host; ?>/assets/poppa/poppa.min.css" />
 		<link rel="stylesheet" href="//<?php echo $host; ?>/css/swiper-bundle.min.css" />
