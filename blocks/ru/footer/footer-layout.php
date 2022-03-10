@@ -29,11 +29,6 @@
 				<p class="pop-thanks__title">Спасибо, ваша заявка отправлена</p>
 				<p class="pop-thanks__desc">Мы перезвоним вам в ближайшее время</p>
 			</div>
-			<div class="pop-pinch">
-				<picutre class="cases-case__pic"
-					><img src="<?php echo $host_url; ?>/img/pinch.jpg" alt="" class="cases-case__img"
-				/></picutre>
-			</div>
 			<form class="pop-callback">
 				<h3 class="section__title pop-callback__title">Заполните форму</h3>
 				<p class="section__subtitle pop-callback__subtitle">И получите консультацию</p>

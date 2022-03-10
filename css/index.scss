@@ -604,10 +604,45 @@ picture img {
 	border-radius: 10px;
 	margin-bottom: 16px;
 }
+
+.cases-popup {
+	max-width: 100%;
+}
+.cases-popup-slider-slide {
+	height: 500px;
+	.cases-popup__pic {
+		// height: 500px;
+		height: 100%;
+		width: 100%;
+		object-fit: contain;
+	}
+}
+.cases-popup-slider-slide__inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	position: relative;
+}
+.cases-popup-slider-slide:first-of-type {
+	.cases-popup-slider-slide__inner {
+		overflow: auto;
+	}
+	.cases-popup__pic:first-of-type {
+		// max-width: 300%;
+		width: initial;
+		height: initial;
+		object-fit: initial;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
 .cases-case__img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 10px;
 }
 .cases-case__row {
 	font-size: 16px;
