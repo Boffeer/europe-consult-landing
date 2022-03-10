@@ -7,8 +7,7 @@
 
 		$global_links = array(
 			"calendly" => "#calendly",
-			"privacy" => "#privacy",
-			"offer" => "#offer",
+			"privacy" => "{$host_url}/pages/ru/privacy",
 			"phone" => "+ 33 (7) 53 11 35 45",
 		);
 	?>

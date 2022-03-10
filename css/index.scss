@@ -898,3 +898,18 @@ picture img {
 	line-height: 131.4%;
 	font-size: 15px;
 }
+
+.page__privacy {
+	padding-bottom: 30px;
+	h1,
+	h2,
+	h3 {
+		font-weight: 600;
+	}
+	h2,
+	h3,
+	p {
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+}

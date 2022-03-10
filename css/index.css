@@ -1123,4 +1123,21 @@ picture img {
   line-height: 131.4%;
   font-size: 15px;
 }
+
+.page__privacy {
+  padding-bottom: 30px;
+}
+
+.page__privacy h1,
+.page__privacy h2,
+.page__privacy h3 {
+  font-weight: 600;
+}
+
+.page__privacy h2,
+.page__privacy h3,
+.page__privacy p {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
 /*# sourceMappingURL=index.css.map */
