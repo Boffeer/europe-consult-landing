@@ -60,6 +60,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     clickTrigger: ".header__contact",
   });
 
+  // @cases
   let casesPopupSlider;
   const casesPics = document.querySelectorAll(".cases-case__pic");
   const casesSliders = document.querySelectorAll(".cases-popup-slider");
@@ -77,8 +78,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         pagination: {
           el: ".cases-popup-slider__pagination",
         },
-        allowSlideNext: false,
-        allowSlidePrev: false,
+        allowTouchMove: false,
       });
     },
     onClose() {
@@ -87,27 +87,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         slider.style.display = "block";
       });
     },
-  });
-  const casesPopupSliderNext = document.querySelectorAll(
-    ".cases-popup-slider__button-next"
-  );
-  casesPopupSliderNext.forEach((button) => {
-    button.addEventListener("click", () => {
-      // casesPopupSlider.allowSlideNext = true;
-      // casesPopupSlider.slideNext();
-      // casesPopupSlider.allowSlideNext = false;
-    });
-  });
-
-  const casesPopupSliderPrev = document.querySelectorAll(
-    ".cases-popup-slider__button-prev"
-  );
-  casesPopupSliderPrev.forEach((button) => {
-    button.addEventListener("click", () => {
-      // casesPopupSlider.allowSlidePrev = true;
-      // casesPopupSlider.slidePrev();
-      // casesPopupSlider.allowSlidePrev = false;
-    });
   });
 
   casesPics.forEach((pic) => {

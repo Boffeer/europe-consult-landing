@@ -607,7 +607,67 @@ picture img {
 
 .cases-popup {
 	max-width: 100%;
+	.swiper-button-next,
+	.swiper-button-prev {
+		color: var(--c-primary);
+	}
+	.swiper-pagination-bullet-active {
+		background: var(--c-primary);
+	}
 }
+
+.cases-popup__swipe-icon {
+	overflow: visible;
+	width: 18px;
+	height: 24px;
+}
+
+.cases-popup__swipe-icon .cases-popup__swipe-arrow {
+	animation: pulse-arrow 2s ease-out infinite;
+}
+
+.cases-popup__swipe-icon {
+	animation: hand-move 2s ease-out infinite;
+}
+.cases-popup__hint {
+	position: absolute;
+	top: 80px;
+	left: 40%;
+	z-index: 10;
+	transform: rotate(45deg);
+}
+
+@keyframes pulse-arrow {
+	0% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+	50% {
+		transform: translateX(0.25em);
+		opacity: 1;
+	}
+	75% {
+		transform: translateX(0.25em);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 0;
+	}
+}
+
+@keyframes hand-move {
+	0% {
+		transform: translateX(0);
+	}
+	50% {
+		transform: translateX(0.5em);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
 .cases-popup-slider-slide {
 	height: 500px;
 	.cases-popup__pic {
