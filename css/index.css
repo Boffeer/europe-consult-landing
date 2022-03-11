@@ -733,6 +733,7 @@ picture img {
 }
 
 .cases-popup__hint {
+  display: none;
   position: absolute;
   top: 80px;
   left: 40%;
@@ -840,20 +841,6 @@ picture img {
           justify-content: center;
   height: 100%;
   position: relative;
-}
-
-.cases-popup-slider-slide:first-of-type .cases-popup-slider-slide__inner {
-  overflow: auto;
-}
-
-.cases-popup-slider-slide:first-of-type .cases-popup__pic:first-of-type {
-  width: initial;
-  height: initial;
-  -o-object-fit: initial;
-     object-fit: initial;
-  position: absolute;
-  left: 0;
-  top: 0;
 }
 
 .cases-case__img {
