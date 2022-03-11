@@ -18,6 +18,7 @@ $blocks = array(
 	'result/result',
 	'cases/cases',
 	'person/person',
+	'reviews/reviews',
 	'lead/lead',
 	'footer/footer',
 );
