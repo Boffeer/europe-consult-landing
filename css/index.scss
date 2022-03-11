@@ -800,11 +800,15 @@ picture img {
 }
 .reviews-card {
 	max-width: 275px;
-	padding: 30px 15px;
+	// padding: 30px 15px;
 	margin-bottom: 20px;
 	background-color: #fff;
 	box-shadow: 0px 4px 20px rgba(206, 206, 206, 0.25);
 	border-radius: 10px;
+	img {
+		border-radius: 10px;
+		width: 100%;
+	}
 }
 .reviews-card__profile {
 	display: flex;
