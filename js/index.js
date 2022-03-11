@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         pagination: {
           el: ".cases-popup-slider__pagination",
         },
-        // allowTouchMove: false,
+        allowTouchMove: false,
       });
     },
     onClose() {
