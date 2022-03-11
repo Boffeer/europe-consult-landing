@@ -669,6 +669,13 @@ picture img {
 	}
 }
 
+.cases-popup {
+	.swiper-button-next,
+	.swiper-button-prev {
+		top: unset;
+		bottom: 20px;
+	}
+}
 .cases-popup-slider-slide {
 	height: 500px;
 	.cases-popup__pic {

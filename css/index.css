@@ -818,6 +818,12 @@ picture img {
   }
 }
 
+.cases-popup .swiper-button-next,
+.cases-popup .swiper-button-prev {
+  top: unset;
+  bottom: 20px;
+}
+
 .cases-popup-slider-slide {
   height: 500px;
 }
