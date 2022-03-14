@@ -29,7 +29,7 @@
 				et&nbsp;une sélection d'outils vous accompagneront à jamais
 			</span>
 		</p>
-		<a href="#calendly" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
 			<span class="button__inner">sélectionner la date et l'heure</span>
 		</a>
 		<div class="timer">

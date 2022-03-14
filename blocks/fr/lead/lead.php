@@ -18,7 +18,7 @@
 				restera avec vous pour toujours!
 			</span>
 		</p>
-		<a href="#calendly" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
 			<span class="button__inner">Sélectionner la date et l'heure</span>
 		</a>
 		<div class="lead-decor__bottom"></div>

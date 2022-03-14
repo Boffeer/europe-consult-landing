@@ -45,7 +45,7 @@
 				</p>
 			</article>
 		</div>
-		<a href="#calendly" class="button button--primary results__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary results__book">
 			<span class="button__inner">Prendre rendez-vous</span>
 		</a>
 	</div>

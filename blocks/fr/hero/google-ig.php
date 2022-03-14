@@ -22,7 +22,7 @@
 				2-5-10 fois plus.
 			</p>
 		</div>
-		<a href="#calendly" class="hero__button button button--primary"
+		<a href="<?php echo $global_links['calendly']; ?>" class="hero__button button button--primary"
 			><span class="button__inner">Prendre rendez-vous</span>
 		</a>
 		<div class="hero__img"></div>

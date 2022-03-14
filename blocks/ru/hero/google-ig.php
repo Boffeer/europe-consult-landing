@@ -26,7 +26,7 @@
 				в 2-5-10 раз больше.
 			</p>
 		</div>
-		<a href="#calendly" class="hero__button button button--primary"
+		<a href="<?php echo $global_links['calendly']; ?>" class="hero__button button button--primary"
 			><span class="button__inner">Записаться</span>
 		</a>
 		<div class="hero__img"></div>

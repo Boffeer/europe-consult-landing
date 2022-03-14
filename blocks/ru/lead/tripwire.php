@@ -20,7 +20,7 @@
 				и подборка инструментов останется у вас навсегда
 			</span>
 		</p>
-		<a href="#calendly" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
 			<span class="button__inner">Выбрать дату и время</span>
 		</a>
 		<div class="lead-decor__bottom"></div>
