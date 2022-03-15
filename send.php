@@ -6,7 +6,7 @@ $config = array(
 	'email' => true,
 	'telegram' => false,
 	'google_sheets' => false,
-	'logfile' => true,
+	'logfile' => false,
 	'amo' => false,
 );
 
@@ -17,7 +17,7 @@ $config = array(
  */
 function getSafeValue($var_name)
 {
-	$safe_value = strip_tags($_GET[$var_name]);
+	$safe_value = strip_tags($_POST[$var_name]);
 	$safe_value = htmlentities($safe_value, ENT_QUOTES, "UTF-8");
 	$safe_value = htmlspecialchars($safe_value, ENT_QUOTES);
 	return $safe_value;
@@ -49,7 +49,7 @@ if ($config['email']) {
 	$form_page = getSafeValue('form_page');
 	$form_name = getSafeValue('form_name');
 	$name = getSafeValue('user_name');
-	$tel = getSafeValue('user_tel');
+	$tel = getSafeValue('user_phone');
 
 	$actual_link = getActualLink();
 
@@ -65,13 +65,6 @@ if ($config['email']) {
 
 	$msg_box = "";
 	$errors = array();
-
-	// если форма без ошибок
-	if (empty($errors)) {
-		// собираем данные из формы
-		$message = "Имя: " . $_POST['user_name'] . "<br/> Телефон: " . $_POST['user_tel'];
-		send_mail($message, $email_to, $email_subject, $email_from); // отправим письмо
-	}
 
 	// функция отправки письма
 	function send_mail($message, $email_to, $email_subject, $email_from)
@@ -92,6 +85,12 @@ if ($config['email']) {
 		// отправляем письмо
 		mail($mail_to, $subject, $message, $headers);
 	}
+	// если форма без ошибок
+	if (empty($errors)) {
+		// собираем данные из формы
+		$message = "Имя: " . $_POST['user_name'] . "<br/> Телефон: " . $_POST['user_tel'];
+		send_mail($message_body, $email_to, $email_subject, $email_from); // отправим письмо
+	}
 }
 ?>
 
@@ -111,7 +110,7 @@ if ($config['telegram']) {
 	//Определяем переменные для передачи данных из нашей формы
 	// if ($_POST['act'] == 'order') {
 	$name = ($_POST['user_name']);
-	$phone = ($_POST['user_tel']);
+	$phone = ($_POST['user_phone']);
 	// }
 
 	//Собираем в массив то, что будет передаваться боту
@@ -142,7 +141,7 @@ if ($config['google_sheets']) {
 	// массив данных (изменить entry, draft и fbzx)
 	$post_data = array(
 		"entry.286082292" => $_POST['user_name'],
-		"entry.1033324795" => $_POST['user_tel'],
+		"entry.1033324795" => $_POST['user_phone'],
 		"draftResponse" => "[,,&quot;2360450121179784330&quot;]",
 		"pageHistory" => "0",
 		"fbzx" => "-2360450121179784330"
@@ -175,7 +174,7 @@ if ($config['logfile']) {
 
 	$formname = getSafeValue('formname');
 	$name = getSafeValue('user_name');
-	$tel = getSafeValue('user_tel');
+	$tel = getSafeValue('user_phone');
 
 	$actual_link = getActualLink();
 

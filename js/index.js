@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         "Content-Type": "application/x-www-form-urlencoded",
       },
     });
-    let result = await response.json();
+    // let result = await response.json();
     // console.log(result);
   });
 
