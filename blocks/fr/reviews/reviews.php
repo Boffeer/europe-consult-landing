@@ -30,16 +30,16 @@
 				*/
 				?>
 				<?php
-					$reviews_path = "{$host_url}/img/reviews/fr/"
+				$reviews_path = "{$host_url}/img/reviews/fr/"
 				?>
-				<article class="swiper-slide reviews-slider-slide reviews-card" >
-					<img src="<?php echo $reviews_path; ?>1.jpg" alt="">
+				<article class="swiper-slide reviews-slider-slide reviews-card">
+					<img src="<?php echo $reviews_path; ?>1.jpg" alt="qurydigital отзывы">
 				</article>
-				<article class="swiper-slide reviews-slider-slide reviews-card" >
-					<img src="<?php echo $reviews_path; ?>3.png" alt="">
+				<article class="swiper-slide reviews-slider-slide reviews-card">
+					<img src="<?php echo $reviews_path; ?>3.png" alt="qurydigital отзывы">
 				</article>
-				<article class="swiper-slide reviews-slider-slide reviews-card" >
-					<img src="<?php echo $reviews_path; ?>2.jpg" alt="">
+				<article class="swiper-slide reviews-slider-slide reviews-card">
+					<img src="<?php echo $reviews_path; ?>2.jpg" alt="qurydigital отзывы">
 				</article>
 			</div>
 			<div class="swiper-scrollbar reviews-slider__scrollbar"></div>

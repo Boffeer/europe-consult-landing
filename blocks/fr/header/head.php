@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" prefix="og: http://ogp.me/ns#">
+<html lang="fr-fr" prefix="og: http://ogp.me/ns#">
 
 <?php
 $host = $_SERVER['SERVER_NAME'];
