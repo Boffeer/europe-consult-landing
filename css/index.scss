@@ -991,7 +991,7 @@ picture img {
 }
 
 .pop-callback {
-	max-width: 300px;
+	max-width: 310px;
 	background-color: #fff;
 	padding: 30px 12px;
 }
@@ -1021,4 +1021,9 @@ picture img {
 		margin-top: 2em;
 		margin-bottom: 1em;
 	}
+}
+
+.pop-callback__submit {
+	padding: 20px 10px;
+	font-size: 13px;
 }
