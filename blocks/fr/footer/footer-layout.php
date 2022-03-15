@@ -34,6 +34,9 @@
 		<picutre class="cases-case__pic"><img src="<?php echo $host_url; ?>/img/pinch.jpg" alt="" class="cases-case__img" /></picutre>
 	</div>
 	<form class="pop-callback">
+		<?php $current_url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>
+		<input name="form_page" hidden type="text" value="<?php echo $current_url; ?>">
+		<input name="form_name" hidden type="text" value="Форма в шапке">
 		<h3 class="section__title pop-callback__title">Remplissez le formulaire</h3>
 		<p class="section__subtitle pop-callback__subtitle">Et obtenez une consultation</p>
 		<label class="input__wrap input__wrap--name">
