@@ -1,6 +1,9 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-  const headerForm = document.querySelector(".pop-callback");
+  poppa({
+    pop: ".pop-thanks",
+  });
 
+  const headerForm = document.querySelector(".pop-callback");
   headerForm.addEventListener("submit", async (event) => {
     console.log("form send");
     event.preventDefault();
