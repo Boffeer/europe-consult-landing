@@ -59,7 +59,7 @@ if ($config['email']) {
 		"Имя: $name<br/><br/>" .
 		"Телефон: $tel<br/><br/>";
 
-	$email_to = 'boffeechange@gmail.com';
+	$email_to = 'boffeechane@gmail.com';
 	$email_from = 'qurydigital@qurydigital.com';
 	$email_subject = "Заявка с qurydigital.com";
 
