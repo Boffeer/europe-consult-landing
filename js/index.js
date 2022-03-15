@@ -14,6 +14,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
     });
     // let result = await response.json();
     // console.log(result);
+    closePop(".pop-callback");
+    openPop(".pop-thanks");
+    setTimeout(() => {
+      closePop(".pop-thanks");
+    }, 3000);
   });
 
   let cases = new Swiper(".cases-slider", {

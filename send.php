@@ -60,6 +60,7 @@ if ($config['email']) {
 		"Телефон: $tel<br/><br/>";
 
 	$email_to = 'boffeechane@gmail.com';
+	// $email_to = 'ellaqury@gmail.com';
 	$email_from = 'qurydigital@qurydigital.com';
 	$email_subject = "Заявка с qurydigital.com";
 
