@@ -49,7 +49,7 @@ if ($config['email']) {
 	$form_page = getSafeValue('form_page');
 	$form_name = getSafeValue('form_name');
 	$name = getSafeValue('user_name');
-	$tel = getSafeValue('user_phone');
+	$tel = getSafeValue('user_tel');
 
 	$actual_link = getActualLink();
 
