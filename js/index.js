@@ -1,4 +1,21 @@
 window.addEventListener("DOMContentLoaded", (event) => {
+  const headerForm = document.querySelector(".pop-callback");
+
+  headerForm.addEventListener("submit", async (event) => {
+    console.log("form send");
+    event.preventDefault();
+
+    let response = await fetch(`${window.location.origin}/send.php`, {
+      method: "POST",
+      body: new URLSearchParams(new FormData(headerForm)),
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+    });
+    let result = await response.json();
+    // console.log(result);
+  });
+
   let cases = new Swiper(".cases-slider", {
     grabCursor: true,
     // centeredSlides: true,
