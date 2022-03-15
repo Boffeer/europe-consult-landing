@@ -48,6 +48,20 @@ $global_links = array(
 	<link rel="stylesheet" href="//<?php echo $host; ?>/assets/poppa/poppa.min.css" />
 	<link rel="stylesheet" href="//<?php echo $host; ?>/css/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="//<?php echo $host; ?>/css/index.min.css" />
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-223057040-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-223057040-1');
+	</script>
+
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w, d, s, l, i) {
