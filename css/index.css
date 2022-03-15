@@ -228,6 +228,7 @@ picture img {
 .button__inner {
   position: relative;
   z-index: 2;
+  pointer-events: none;
 }
 
 .button--secondary {

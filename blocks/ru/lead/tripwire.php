@@ -2,7 +2,7 @@
 	<div class="lead-decor__top"></div>
 	<div class="container lead__container">
 		<h2 class="section__title lead__title">
-		Не упустите шанс записаться на консультацию и узнать как получать от 3-10 клиентов в день из Instagram и Google по минимальной цене
+			Не упустите шанс записаться на консультацию и узнать как получать от 3-10 клиентов в день из Instagram и Google по минимальной цене
 		</h2>
 		<p class="lead__desc section__text section__text--regular">
 			1 час моей консультации стоит 100€, но только сегодня я готова записать вас на неё по <span class="section__text--bold section__text--underline">специальной цене - 8.99 €</span>
@@ -20,7 +20,7 @@
 				и подборка инструментов останется у вас навсегда
 			</span>
 		</p>
-		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book button--calendly">
 			<span class="button__inner">Выбрать дату и время</span>
 		</a>
 		<div class="lead-decor__bottom"></div>

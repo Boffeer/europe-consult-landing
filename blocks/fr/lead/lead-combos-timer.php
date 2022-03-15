@@ -16,7 +16,7 @@
 			</li>
 		</ul>
 		<p class="lead__desc section__text">
-		Si vous voyez ce site, alors vos concurrents le voient aussi :)
+			Si vous voyez ce site, alors vos concurrents le voient aussi :)
 		</p>
 		<p class="lead__desc section__text">
 			Par conséquent, choisissez l'heure et la date de la consultation dès que possible et après cela, augmentez vos revenus de 2-5-10 fois.
@@ -24,12 +24,12 @@
 		<p class="section__caption lead__caption">
 			<span class="lead__caption-text">
 				<span class="lead__caption-text--highlight section__text--color">
-				L'enregistrement de la consultation
+					L'enregistrement de la consultation
 				</span>
 				et&nbsp;une sélection d'outils vous accompagneront à jamais
 			</span>
 		</p>
-		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book button--calendly">
 			<span class="button__inner">sélectionner la date et l'heure</span>
 		</a>
 		<div class="timer">

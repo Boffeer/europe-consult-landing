@@ -18,12 +18,7 @@
 			Inscrivez-vous pour une consultation avec un spécialiste du marketing qui parle 3 langues avec des informations sur toutes les caractéristiques du travail en Europe.
 		</p>
 		<div class="hero__offer">
-			<picture class="hero__offer-pic"
-				><img
-					src="<?php echo $host_url; ?>/img/hero/magnet.png"
-					alt=""
-					class="hero__offer-img"
-			/></picture>
+			<picture class="hero__offer-pic"><img src="<?php echo $host_url; ?>/img/hero/magnet.png" alt="" class="hero__offer-img" /></picture>
 			<p class="hero__offer-desc section__text">
 				Et obtenez un plan personnalisé pour votre entreprise
 				pour attirer les clients
@@ -31,8 +26,7 @@
 				2-5-10 fois plus.
 			</p>
 		</div>
-		<a href="<?php echo $global_links['calendly']; ?>" class="hero__button button button--primary"
-			><span class="button__inner">Prendre rendez-vous</span>
+		<a href="<?php echo $global_links['calendly']; ?>" class="hero__button button button--primary button--calendly"><span class="button__inner">Prendre rendez-vous</span>
 		</a>
 		<div class="hero__img"></div>
 	</div>

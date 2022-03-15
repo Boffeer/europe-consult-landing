@@ -28,7 +28,7 @@
 				у вас останется навсегда!
 			</span>
 		</p>
-		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book button--calendly">
 			<span class="button__inner">Выбрать дату и время</span>
 		</a>
 		<div class="timer">

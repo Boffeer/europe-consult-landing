@@ -13,12 +13,12 @@
 		<p class="section__caption lead__caption">
 			<span class="lead__caption-text--highlight lead__caption-text">
 				<span class="section__text--color">
-				Un enregistrement vidéo de consultation
+					Un enregistrement vidéo de consultation
 				</span>
 				restera avec vous pour toujours!
 			</span>
 		</p>
-		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book">
+		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book button--calendly">
 			<span class="button__inner">Sélectionner la date et l'heure</span>
 		</a>
 		<div class="lead-decor__bottom"></div>
