@@ -53,6 +53,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   let reviews = new Swiper(".reviews-slider", {
+    lazy: true,
     grabCursor: true,
     // centeredSlides: true,
     slidesPerView: 2,

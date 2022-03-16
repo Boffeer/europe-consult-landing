@@ -32,42 +32,42 @@
 				<?php $reviews_path = "{$host_url}/img/reviews/ru/" ?>
 				<?php $reviews_path_fr = "{$host_url}/img/reviews/fr/" ?>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path_fr; ?>1.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path_fr; ?>1.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>4.jpg" alt="">
+					<img data-src="<?php echo $reviews_path; ?>4.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>5.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>5.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>6.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>6.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>7.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>7.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>8.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>8.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>3.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>3.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>9.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>9.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>1.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>1.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>2.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path; ?>2.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path_fr; ?>3.png" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path_fr; ?>3.png" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path_fr; ?>2.jpg" alt="qurydigital отзывы">
+					<img data-src="<?php echo $reviews_path_fr; ?>2.jpg" alt="qurydigital отзывы" class="swiper-lazy">
 				</article>
 			</div>
 			<div class="swiper-scrollbar reviews-slider__scrollbar"></div>
