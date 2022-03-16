@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
+  var lazyLoadInstance = new LazyLoad();
   poppa({
     pop: ".pop-thanks",
   });
@@ -25,6 +26,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   });
 
   let cases = new Swiper(".cases-slider", {
+    lazy: true,
     grabCursor: true,
     // centeredSlides: true,
     slidesPerView: 2,
