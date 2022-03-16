@@ -1,15 +1,11 @@
-
 <section class="person">
 	<div class="container person__container">
 		<h2 class="section__title person__title">
 			Кстати, будем знакомы...
 		</h2>
 		<p class="section__caption person__caption">
-			Меня зовут<span
-				class="person__caption--color section__text--color"
-			>
-				Курилович Элла</span
-			>
+			Меня зовут<span class="person__caption--color section__text--color">
+				Курилович Элла</span>
 		</p>
 		<ul class="section-list person-list">
 			<li class="section-list__item person-list__item">
@@ -31,7 +27,7 @@
 			</li>
 		</ul>
 		<picture class="person__picture">
-			<img src="<?php echo $root_url; ?>/img/person/hero.png" alt="" class="person__img" />
+			<img data-src="<?php echo $root_url; ?>/img/person/hero.png" alt="" class="person__img lazy" />
 		</picture>
 	</div>
 </section>
