@@ -44,6 +44,8 @@ $global_links = array(
 	<meta name="msapplication-config" content="<?php echo $host_url; ?>/img/manifest/browserconfig.xml">
 	<meta name="theme-color" content="#ea5aba">
 
+	<meta name="facebook-domain-verification" content="fx2eqcj038qn91hkapjgq350qsttcd" />
+
 	<link rel="stylesheet" href="//<?php echo $host; ?>/css/normalize.css" />
 	<link rel="stylesheet" href="//<?php echo $host; ?>/assets/poppa/poppa.min.css" />
 	<link rel="stylesheet" href="//<?php echo $host; ?>/css/swiper-bundle.min.css" />
@@ -80,6 +82,32 @@ $global_links = array(
 		})(window, document, 'script', 'dataLayer', 'GTM-KVZW4BK');
 	</script>
 	<!-- End Google Tag Manager -->
+
+	<!-- Meta Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1031095557843816');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1031095557843816&ev=PageView&noscript=1" /></noscript>
+	<!-- End Meta Pixel Code -->
 </head>
 
 <body>

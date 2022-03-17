@@ -12,7 +12,7 @@ require_once "footer-layout.php"
 	})
 	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-	ym(87903566, "init", {
+	ym(87928801, "init", {
 		clickmap: true,
 		trackLinks: true,
 		accurateTrackBounce: true,
@@ -20,7 +20,7 @@ require_once "footer-layout.php"
 	});
 </script>
 <noscript>
-	<div><img src="https://mc.yandex.ru/watch/87903566" style="position:absolute; left:-9999px;" alt="" /></div>
+	<div><img src="https://mc.yandex.ru/watch/87928801" style="position:absolute; left:-9999px;" alt="" /></div>
 </noscript>
 <!-- /Yandex.Metrika counter -->
 <script src="<?php echo $host_url; ?>/assets/poppa/poppa.js"></script>
