@@ -22,5 +22,12 @@ $blocks = array(
 	'lead/tripwire',
 	'footer/footer',
 );
+
+$index_page = 'marketing-consult/combos-tripwire';
+$header_links = array(
+	'ru' => '//' . $_SERVER['HTTP_HOST'] . 'pages/ru/' . $index_page,
+	'fr' => '//' . $_SERVER['HTTP_HOST'] . 'pages/fr/' . $index_page,
+);
+
 require_once $_SERVER['DOCUMENT_ROOT'] . '/functions.php';
 get_page_layout($blocks, $head_info, __FILE__);

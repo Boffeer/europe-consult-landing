@@ -6,7 +6,7 @@ $host = $_SERVER['SERVER_NAME'];
 $host_url = "//{$_SERVER['SERVER_NAME']}";
 
 $global_links = array(
-	"calendly" => "https://calendly.com/qurydigital/marketing-consult/",
+	"calendly" => "https://2meetup.in/ellaqury/marketing-consultation",
 	"privacy" => "{$host_url}/pages/ru/privacy",
 	"phone" => "+ 33 (7) 53 11 35 45",
 );

@@ -392,6 +392,25 @@ picture img {
 	justify-content: space-between;
 	align-items: center;
 }
+.header-language {
+	display: flex;
+	align-items: center;
+}
+.header-language__switcher {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: var(--c-primary);
+	border-bottom: 1px solid var(--c-primary);
+	margin-left: 7px;
+	font-weight: normal;
+	&--current {
+		padding-left: 2px;
+		padding-right: 2px;
+		background-color: var(--c-primary);
+		color: #fff;
+		border-bottom: none;
+	}
+}
 
 // @hero
 .hero-list {
