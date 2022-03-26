@@ -34,7 +34,7 @@
 			</div>
 		<?php else : ?>
 			<div class="header-language">
-				<?php $index_page = 'marketing-consult/combos-tripwire'; ?>
+				<?php $index_page = 'marketing-consult/socials-min'; ?>
 				<a href="<?php echo '//' . $_SERVER['HTTP_HOST'] . '/pages/ru/' . $index_page; ?>" class="header-language__switcher">ru</a>
 				<p class="header-language__switcher  header-language__switcher--current">fr</p>
 			</div>

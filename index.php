@@ -21,18 +21,19 @@ $head_info = array(
 
 $blocks = array(
 	'header/header',
-	'hero/combos',
+	'hero/google-ig',
 	'consult/consult',
 	'result/result',
 	'cases/cases',
 	'person/person',
 	'reviews/reviews',
-	'lead/tripwire',
+	'lead/lead',
 	'footer/footer',
 );
 
-	get_page_layout($blocks, $head_info, __FILE__, 'fr');
+get_page_layout($blocks, $head_info, __FILE__, 'fr');
 ?>
 
 
-<?php //require_once 'footer.php'; ?>
+<?php //require_once 'footer.php'; 
+?>
