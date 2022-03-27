@@ -8,6 +8,7 @@
 				<?php
 				/*
 				This was a first block design, but at the end, it has been changed to picutres
+
 				<article class="swiper-slide reviews-slider-slide reviews-card" >
 					<div class="reviews-card__profile">
 						<img
@@ -33,13 +34,19 @@
 				$reviews_path = "{$host_url}/img/reviews/fr/"
 				?>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>1.jpg" alt="qurydigital отзывы">
+					<img src="<?php echo $reviews_path; ?>1.png" alt="qurydigital отзывы">
+				</article>
+				<article class="swiper-slide reviews-slider-slide reviews-card">
+					<img src="<?php echo $reviews_path; ?>2.png" alt="qurydigital отзывы">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
 					<img src="<?php echo $reviews_path; ?>3.png" alt="qurydigital отзывы">
 				</article>
 				<article class="swiper-slide reviews-slider-slide reviews-card">
-					<img src="<?php echo $reviews_path; ?>2.jpg" alt="qurydigital отзывы">
+					<img src="<?php echo $reviews_path; ?>4.png" alt="qurydigital отзывы">
+				</article>
+				<article class="swiper-slide reviews-slider-slide reviews-card">
+					<img src="<?php echo $reviews_path; ?>5.png" alt="qurydigital отзывы">
 				</article>
 			</div>
 			<div class="swiper-scrollbar reviews-slider__scrollbar"></div>
