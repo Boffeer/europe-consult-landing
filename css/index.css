@@ -1,31 +1,15 @@
 @font-face {
-  src: url("../fonts/Circe-Light.woff2") format("woff2"), url("../fonts/Circe-Light.woff") format("woff");
-  font-family: "Circe";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-family: "Roboto";
   font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  src: url("../fonts/Circe-Regular.woff2") format("woff2"), url("../fonts/Circe-Regular.woff") format("woff");
-  font-family: "Circe";
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  src: url("../fonts/Circe-Bold.woff2") format("woff2"), url("../fonts/Circe-Bold.woff") format("woff");
-  font-family: "Circe";
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  src: url("../fonts/Pobeda-Bold.woff2") format("woff2"), url("../fonts/Pobeda-Bold.woff") format("woff");
-  font-family: "Pobeda";
-  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -42,8 +26,8 @@
   --z-popup: 100;
   --z-burger-button: 50;
   --z-burger: 110;
-  --ff-text-regular: "Circe", "Arial", "Helvetica", sans-serif;
-  --ff-title: "Pobeda", "Arial", "Helvetica", sans-serif;
+  --ff-text-regular: "Roboto", "Arial", "Helvetica", sans-serif;
+  --ff-title: var(--ff-text-regular);
 }
 
 * {
@@ -233,10 +217,10 @@ picture img {
 
 .button--secondary {
   padding-top: 11px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 17px;
   color: #b1b1b1;
   border: 1px solid #e3e3e3;
@@ -324,6 +308,7 @@ picture img {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   line-height: 104.4%;
+  font-weight: 700;
 }
 
 .section__title--color {
@@ -476,6 +461,10 @@ picture img {
   border-bottom: none;
 }
 
+.hero__title {
+  font-size: 26px;
+}
+
 .hero-list {
   font-weight: 600;
   margin-bottom: 16px;
@@ -527,10 +516,10 @@ picture img {
   width: calc(100% + 20px);
   margin-left: -10px;
   height: 339px;
-  background-image: url("../img/hero/hero.png"), url("../img/hero/hero-bg-2.jpg");
+  background-image: url("../img/hero/hero-fr.png"), url("../img/hero/hero-bg-2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
 }
 
 .consult {
@@ -540,7 +529,7 @@ picture img {
 }
 
 .consult__title {
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -559,7 +548,7 @@ picture img {
   -webkit-box-shadow: 0px 4px 20px rgba(206, 206, 206, 0.25);
           box-shadow: 0px 4px 20px rgba(206, 206, 206, 0.25);
   border-radius: 10px;
-  padding: 20px;
+  padding: 20px 13px;
   margin-bottom: 25px;
 }
 
@@ -579,6 +568,7 @@ picture img {
   text-align: center;
   margin-bottom: 20px;
   font-weight: 500;
+  font-size: 18px;
 }
 
 .consult-card__desc:last-child {
@@ -647,7 +637,17 @@ picture img {
 
 .result__title {
   text-align: center;
-  font-size: 35px;
+  font-size: 21px;
+}
+
+.result__desc {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 104.4%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .result__gallery {
@@ -698,7 +698,7 @@ picture img {
 
 .cases__title {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
@@ -943,7 +943,7 @@ picture img {
 }
 
 .person__title {
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .person__caption {
@@ -986,6 +986,7 @@ picture img {
 }
 
 .reviews__title {
+  font-size: 24px;
   margin-bottom: 25px;
 }
 
@@ -1063,7 +1064,7 @@ picture img {
 }
 
 .lead__title {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 

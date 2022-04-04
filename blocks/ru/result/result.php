@@ -17,7 +17,7 @@
 				</p>
 			</article>
 			<article class="result-card">
-				<picture class="result-card__pic result-card__pic--client"><img src="<?php echo $root_url; ?>/img/result/clients.png" alt="" class="result-card__img" /></picture>
+				<picture class="result-card__pic result-card__pic--client"><img src="<?php echo $root_url; ?>/img/result/clients-2.png" alt="" class="result-card__img" /></picture>
 				<h3 class="card__title result-card__title">Поток клиентов</h3>
 				<p class="card__desc result-card__decs">
 					Забудете слово “Сарафан”, сможете прогнозировать свой доход

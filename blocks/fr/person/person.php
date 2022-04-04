@@ -23,7 +23,7 @@
 				J'ai personnellement aidé mes clients à investir plus de 100 000 euros de budget publicitaire, avec l'équipe cette somme dépasse les 500 000 euros.
 			</li>
 			<li class="section-list__item person-list__item">
-				Nous leur avons rapporté plus de 2 millions d'euros en 2021.
+				Nous leur avons rapporté plus <br>de&nbsp;2&nbsp;millions d'euros&nbsp;en&nbsp;2021.
 			</li>
 		</ul>
 		<picture class="person__picture">

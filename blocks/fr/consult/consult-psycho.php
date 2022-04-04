@@ -3,29 +3,26 @@
 		<h2 class="section__title consult__title">
 			<span class="section__text--color">Qu'obtiendrez-vous </span>lors de la consultation :
 		</h2>
-		<p class="section__subtitle consult__subtitle">
-			Après avoir bavardé pendant quelques minutes avant que nous débutions
-		</p>
 		<div class="consult__gallery">
 			<article class="consult-card">
 				<picture class="consult-card__pic"><img src="<?php echo $host_url; ?>/img/consult/funnel.png" alt="" class="consult-card__img" /></picture>
 				<h3 class="consult-card__title card__title card__title--divider-bottom">
-					Des recommandations éprouvées pour améliorer chaque étape de l'expérience client, du premier contact à la vente
+					Des recommandations éprouvées pour vendre facilement à un client lors de dialogues online et offline avec lui.
 				</h3>
 				<p class="section__text consult-card__desc consult-card__desc--bottom-bubble consult-card__desc--bottom-bubble-transparent" data-bubble-bottom="+">
-					Nous analysons|segmentons vos clients potentiels.
+					Nous analysons vos clients potentiels selon des critères psychologiques.
 				</p>
 				<p class="section__text consult-card__desc consult-card__desc--bottom-bubble" data-bubble-bottom="=">
-					Nous changeons / modifions la proposition de prestation de services ou de vente de biens.
+					Nous apportons nos compétences dans le domaine digital pour vous apporter des recommandations sur vos produits et services.
 				</p>
 				<p class="section__text consult-card__desc">
-					Fermez plus de clients pour un accord avec leur flux actuel.
+					Closez plus de clients pour un accord avec leur flux actuel.
 				</p>
 			</article>
 			<article class="consult-card">
 				<picture class="consult-card__pic"><img src="<?php echo $host_url; ?>/img/consult/strategy.png" alt="" class="consult-card__img" /></picture>
 				<h3 class="consult-card__title card__title">
-					Stratégie étape par étape pour obtenir un flux constant de clients.
+					<span class="section__text--color">Stratégie étape par étape </span> pour obtenir un flux constant de clients sur Internet
 				</h3>
 				<p class="section__text consult-card__desc">
 					Un plan individuel pour votre entreprise qui apportera régulièrement 3 à 10 clients par jour. Nous avons mis en place toutes les étapes = nous avons reçu énormément de clients solvables ainsi nous avons le choix de travailler avec eux ou non

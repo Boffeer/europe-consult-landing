@@ -2,7 +2,8 @@
 	<div class="cases-decor__top"></div>
 	<div class="container cases__container">
 		<h2 class="section__title cases__title">
-			Voici ce que les clients ont obtenu après avoir mis en œuvre toutes les recommandations
+			Voici ce que les clients ont obtenu
+			<span class="section__title--color">après avoir mis en œuvre </span> toutes les recommandations
 		</h2>
 		<div class="swiper cases-slider">
 			<div class="swiper-wrapper">

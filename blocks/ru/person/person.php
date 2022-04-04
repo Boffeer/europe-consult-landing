@@ -23,7 +23,7 @@
 				совместно с командой более 500 тыс. евро
 			</li>
 			<li class="section-list__item person-list__item">
-				За 2021 год принесла своим клиентам +2 млн. евро
+				За 2021 год принесла своим клиентам +2&nbsp;млн.&nbsp;евро
 			</li>
 		</ul>
 		<picture class="person__picture">
