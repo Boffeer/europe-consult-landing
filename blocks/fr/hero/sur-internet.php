@@ -6,7 +6,7 @@
 			sur Internet?
 		</h1>
 		<p class="hero__desc section__text">
-			Saisissez votre chance, inscrivez-vous pour une consultation gratuite avec un spécialiste digital et obtenez un plan de marketing individuel pour votre entreprise.
+			Saisissez votre chance, inscrivez-vous pour une <span class="section__text--color">consultation gratuite </span> avec un spécialiste digital et obtenez un plan de marketing individuel pour votre entreprise.
 		</p>
 		<a href="<?php echo $global_links['calendly']; ?>" class="hero__button button button--primary button--calendly"><span class="button__inner">Prendre rendez-vous</span>
 		</a>

@@ -1,7 +1,7 @@
 <section class="reviews">
 	<div class="container reviews__container">
 		<h2 class="section__title reviews__title">
-			Voici les avis de notre travail
+			Voici <span class="section__title--color">les avis </span>de notre travail
 		</h2>
 		<div class="swiper reviews-slider">
 			<div class="swiper-wrapper">

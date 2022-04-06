@@ -12,7 +12,7 @@
 			</li>
 		</ul>
 		<p class="hero__desc section__text">
-			Inscrivez-vous pour une consultation gratuite et obtenez un plan étape par étape pour votre entreprise "Comment commencer à attirer des clients sur Internet et gagner 3-5-10 fois plus en seulement 30 jours”
+			Inscrivez-vous pour une <span class="section__text--color">consultation gratuite </span> et obtenez un plan étape par étape pour votre entreprise "Comment commencer à attirer des clients sur Internet et gagner 3-5-10 fois plus en seulement 30 jours”
 		</p>
 		<a href="<?php echo $global_links['calendly']; ?>" class="hero__button button button--primary button--calendly"><span class="button__inner">Prendre rendez-vous</span>
 		</a>

@@ -12,7 +12,7 @@
 				<!-- <span class="lead__caption-text--highlight section__text--color">
 					L'enregistrement de la consultation
 				</span> -->
-				La consultation après 24 heures sera payante
+				<span class="lead__caption-text--highlight">La consultation après 24 heures sera payante</span>
 			</span>
 		</p>
 		<a href="<?php echo $global_links['calendly']; ?>" class="button button--primary lead__book button--calendly">

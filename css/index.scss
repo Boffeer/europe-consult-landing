@@ -7,6 +7,14 @@
 	font-display: swap;
 }
 @font-face {
+	src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+		url("../fonts/Roboto-Medium.woff") format("woff");
+	font-family: "Roboto";
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
 	src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
 		url("../fonts/Roboto-Regular.woff") format("woff");
 	font-family: "Roboto";
@@ -65,7 +73,7 @@ h6,
 ol {
 	margin: 0;
 	padding: 0;
-	font-weight: 500;
+	font-weight: 400;
 }
 ul,
 ol {
@@ -74,7 +82,7 @@ ol {
 body {
 	font-family: var(--ff-text-regular);
 	font-size: var(--fz-regular);
-	font-weight: 300;
+	font-weight: 400;
 	color: var(--c-text-regular);
 	background-color: var(--c-primary);
 	line-height: 1.32;
@@ -210,7 +218,7 @@ picture img {
 	z-index: 2;
 	width: 100%;
 	padding: 20px;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 14px;
 	line-height: 21px;
 	text-align: center;
@@ -273,22 +281,22 @@ picture img {
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	line-height: 104.4%;
-	font-weight: 700;
+	font-weight: 500;
 }
 .section__title--color {
 	color: var(--c-primary);
 }
 .section__text {
 	color: var(--c-text-regular);
-	font-weight: 300;
+	font-weight: 400;
 	&--color {
 		color: var(--c-primary);
 	}
 	&--regular {
-		font-weight: 500;
+		font-weight: 400;
 	}
 	&--bold {
-		font-weight: 600;
+		font-weight: 700;
 	}
 	&--underline {
 		border-bottom: 1px solid #333;
@@ -307,7 +315,7 @@ picture img {
 .card__title {
 	font-size: 18px;
 	line-height: 131.4%;
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 8px;
 }
 .card__title--divider-bottom {
@@ -320,16 +328,16 @@ picture img {
 	width: calc(100% + 40px);
 }
 .card__desc {
-	font-weight: 300;
+	font-weight: 400;
 }
 .section__caption {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 18px;
 	&:before {
 		content: "...";
 		font-size: 40px;
 		line-height: 0px;
-		font-weight: 600;
+		font-weight: 700;
 		color: #dbdbdb;
 		position: relative;
 		top: -3px;
@@ -387,7 +395,7 @@ picture img {
 	color: var(--c-primary);
 	border-bottom: 1px solid var(--c-primary);
 	margin-left: 7px;
-	font-weight: normal;
+	font-weight: 400;
 	&--current {
 		padding-left: 2px;
 		padding-right: 2px;
@@ -402,7 +410,7 @@ picture img {
 	font-size: 26px;
 }
 .hero-list {
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 16px;
 }
 .hero-list__item {
@@ -481,14 +489,14 @@ picture img {
 .consult-card__desc {
 	text-align: center;
 	margin-bottom: 20px;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 18px;
 	&:last-child {
 		margin-bottom: 0;
 	}
 	&--bottom {
 		color: var(--c-primary);
-		font-weight: 600;
+		font-weight: 700;
 	}
 }
 .consult-card__desc--bottom-bubble {
@@ -735,7 +743,7 @@ picture img {
 .cases-case__row {
 	font-size: 16px;
 	margin-bottom: 10px;
-	font-weight: 300;
+	font-weight: 400;
 	&:last-child {
 		margin-bottom: 0;
 	}
@@ -757,7 +765,7 @@ picture img {
 	}
 }
 .cases-case__decs--result {
-	font-weight: 600;
+	font-weight: 700;
 }
 .cases-decor__bottom {
 	width: 100%;
@@ -789,7 +797,7 @@ picture img {
 	font-size: 25px;
 }
 .person__caption {
-	font-weight: 600;
+	font-weight: 700;
 	margin-bottom: 14px;
 }
 .person-list__item {
@@ -852,7 +860,7 @@ picture img {
 	margin-right: 15px;
 }
 .reviews-card__name {
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 18px;
 }
 .reviews-card__review {
@@ -903,7 +911,7 @@ picture img {
 	display: block;
 	font-weight: 400;
 	&--highlight {
-		font-weight: 600;
+		font-weight: 700;
 	}
 }
 .lead-decor__bottom {
@@ -990,7 +998,7 @@ picture img {
 }
 .footer__entry-item {
 	font-family: var(--ff-text-regular);
-	font-weight: 500;
+	font-weight: 400;
 }
 .footer__rights {
 	width: 100%;
@@ -1033,7 +1041,7 @@ picture img {
 	h1,
 	h2,
 	h3 {
-		font-weight: 600;
+		font-weight: 700;
 	}
 	h2,
 	h3,

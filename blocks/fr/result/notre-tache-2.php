@@ -1,7 +1,7 @@
 <section class="result">
 	<div class="container result__sontainer">
 		<h2 class="section__title result__title">
-			Notre tâche lors de la consultation est de vous entendre et de vous aider, et non de vendre quoi que ce soit, donc après cela, vous aurez ceci :
+			Notre <span class="section__text--color">tâche lors de la consultation est de vous entendre et de vous aider </span>, et non de vendre quoi que ce soit, donc après cela, vous aurez ceci :
 		</h2>
 		<div class="result__gallery">
 			<article class="result-card">
